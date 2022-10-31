@@ -21,7 +21,7 @@ body {
     z-index: 100;
 }
 
-.navbar {
+.menu {
     display: flex;
     margin-right: 10px;
 }
@@ -37,16 +37,71 @@ body {
     font-size: 20px;
 }
 
-.navbar a {
+.menu a {
     display: block;
     padding: 20px 20px;
-    color: #fff;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     text-transform: uppercase;
     font-size: 20px;
 }
 
-.navbar a:hover {
+.menuI a {
+    display: block;
+    padding: 20px 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.menuN a {
+    display: block;
+    padding: 20px 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.menuS a {
+    display: block;
+    padding: 20px 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.menuU a {
+    display: block;
+    padding: 20px 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.menu a:hover {
+    background: #e91e1e;
+}
+
+.menuN a:hover {
+    background: #361ee9f6;
+}
+
+.menuI a:hover {
+    background: #e91e1e;
+}
+.menuS a:hover {
+    background: #361ee9f6;
+}
+.menuU a:hover {
+    background: #e91e1e;
+}
+
+
+.menuI a:hover {
     background: #e91e1e;
 }
 
@@ -59,6 +114,14 @@ body {
     background-size: cover;
 }
 
+.headerser {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background: url(img/trtarde.png) no-repeat center;
+    background-size: cover;
+}
 .title {
     margin-bottom: 40px;
     font-size: 60px;
@@ -98,7 +161,11 @@ p {
 
 .sau {
     padding: 50px 0;
-    background: #303030;
+    background: #e91e1e;
+}
+ .sauAZ {
+        padding: 50px 0;
+        background: #361ee9f6;
 }
 
 .box-container {
@@ -147,8 +214,19 @@ p {
     text-align: center;
 }
 
+.price2 {
+    background: url(img/trtarde.png);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
 .about {
-    background: #303030;
+    background: #e91e1e;
+    padding: 50px 0;
+}
+.aboutAZ {
+    background: #361ee9f6;
     padding: 50px 0;
 }
 
@@ -179,7 +257,7 @@ p {
 
 .box-container2 .box h3 {
     font-size: 20px;
-    color: #e91e1e;
+    color: #2b04eb;
     padding-top: 10px;
 }
 
@@ -246,3 +324,62 @@ p {
         display: none;
     }
 }
+table,th, td, tr{
+    border: 3px solid #130ff0;
+    }
+    th{
+    background-color: #130ff0;
+    color: white;
+    }
+
+ .GRÚA{
+        font-weight: 100;  
+        color: #ffffff;
+        
+    }
+    .RÚA{
+        font-size: smaller;
+    }
+    .G{
+        font-size:larger;
+        font-weight: 1000; 
+ }
+
+.serviciosnosotros {
+    color: rgb(223, 6, 6);
+    
+}
+.empleados{
+    border-style: inset;
+    border-color: rgb(97, 97, 241);
+}
+.trece{
+    font-size: x-large;
+    font-weight: 900;
+    color: black;
+}
+.tres {
+    color: rgba(255, 0, 0, 0.968);
+}
+.administración{
+    color: red;
+    font-weight: 900;
+    
+}
+.uno{
+    text-align:justify;
+}
+.img{
+    float:right;
+    width: 200px;
+    height: 200px;
+    margin: 0;
+    padding: 70px;}
+
+    .img2{
+        float:left;
+        width: 200px;
+        height: 200px;
+        margin: 0px;
+        padding: 70px;
+       }
